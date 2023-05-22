@@ -1,0 +1,16 @@
+{
+    "kv_store":{
+        "IP":"127.0.0.1",
+        "PORT":9979
+    },
+    "master":{
+        "IP":"127.0.0.1",
+        "PORT":9986
+    },
+    "mappers":5,
+    "reducers":5,
+    "input_file1":"gatsby.txt",
+    "input_file2":"test.txt",
+    "map_reduce_fn":"word_count.py",
+    "application":"word_count"
+}
